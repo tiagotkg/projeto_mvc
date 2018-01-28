@@ -27,7 +27,8 @@ SET time_zone = "+00:00";
 --
 -- Estrutura da tabela `grupos`
 --
-
+CREATE DATABASE projeto_mvc;
+USE projeto_mvc;
 CREATE TABLE `grupos` (
   `cd_grupo` int(11) NOT NULL,
   `grupo` varchar(45) NOT NULL
