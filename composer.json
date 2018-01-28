@@ -1,0 +1,26 @@
+{
+	"name": "MVC_MASTER",
+	"require": {			
+			"components/bootstrap": "3.3.7"
+	},
+
+	"minimum-stability": "alpha",
+	"authors": [
+		{
+			"name": "Tiago Toshio Kumagai Gibo",
+			"email": "tiagotkg@gmail.com"
+
+		}			
+	],
+
+	"autoload": {
+		"psr-4": {			
+			"App\\": ["configuracoes", "controllers", "models"]
+			
+		}
+	},
+
+	"config": {
+		"bin-dir": "bin"
+	}
+}
